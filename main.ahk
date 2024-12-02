@@ -1,18 +1,18 @@
 ConfigFile := "config.ini"
 
-IniRead, key_M4A4, %ConfigFile%, KeyBinds, M4A4
-IniRead, key_M4A1, %ConfigFile%, KeyBinds, M4A1
-IniRead, key_Famas, %ConfigFile%, KeyBinds, Famas
-IniRead, key_AUG, %ConfigFile%, KeyBinds, AUG
-IniRead, key_AK, %ConfigFile%, KeyBinds, AK
-IniRead, key_Galil, %ConfigFile%, KeyBinds, Galil
-IniRead, key_SG, %ConfigFile%, KeyBinds, SG
-IniRead, key_UMP, %ConfigFile%, KeyBinds, UMP
-IniRead, key_shoot, %ConfigFile%, KeyBinds, shoot
-IniRead, key_zoom, %ConfigFile%, KeyBinds, zoom
+IniRead, key_M4A4, %ConfigFile%, Keybinds, M4A4
+IniRead, key_M4A1, %ConfigFile%, Keybinds, M4A1
+IniRead, key_Famas, %ConfigFile%, Keybinds, Famas
+IniRead, key_AUG, %ConfigFile%, Keybinds, AUG
+IniRead, key_AK, %ConfigFile%, Keybinds, AK
+IniRead, key_Galil, %ConfigFile%, Keybinds, Galil
+IniRead, key_SG, %ConfigFile%, Keybinds, SG
+IniRead, key_UMP, %ConfigFile%, Keybinds, UMP
+IniRead, key_shoot, %ConfigFile%, Keybinds, shoot
+IniRead, key_zoom, %ConfigFile%, Keybinds, zoom
 IniRead, sensitivity, %ConfigFile%, Settings, sensitivity
 IniRead, zoomsensitivity, %ConfigFile%, Settings, zoomsensitivity
-IniRead, PauseKey, %ConfigFile%, KeyBinds, PauseKey
+IniRead, PauseKey, %ConfigFile%, Keybinds, PauseKey
 
 smoothness := 0.5
 modifier:= 2.52/sensitivity
